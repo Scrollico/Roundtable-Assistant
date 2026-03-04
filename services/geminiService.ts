@@ -20,7 +20,7 @@ export const generateAssistantResponse = async (
         systemInstruction: SYSTEM_PROMPT,
         tools: [{ googleSearch: {} }],
         // Enable thinking to reduce hallucinations and improve strategic reasoning
-        thinkingConfig: { thinkingBudget: 16384 }, 
+        thinkingConfig: { thinkingBudget: 4096 }, 
       },
     });
 

@@ -12,11 +12,11 @@ const Header: React.FC = () => {
         
         <div className="flex flex-col items-center">
           <h1 className="font-serif text-[14px] md:text-[15px] text-[#F5F5F7] leading-none tracking-[0.05em] text-center drop-shadow-md">
-            Radical Uncertainty Roundtables
+            The Infrastructure of Intelligence
           </h1>
           <div className="flex items-center gap-2 mt-2">
             <span className="text-[#8E8E93] text-[9px] font-medium tracking-[0.2em] uppercase opacity-60">
-              Media at the AI Horizon
+              Radical Uncertainty Roundtables
             </span>
           </div>
         </div>
